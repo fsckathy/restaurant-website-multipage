@@ -1,0 +1,14 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+*.swp
+
+# Unused font files (not referenced by the site)
+fonts/Roboto_Mono.zip
+fonts/ufonts.com_tw-cen-mt.ttf
