@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Casa do Sabor">
+  <title>Casa do Sabor</title>
+  <defs>
+    <mask id="potDetail">
+      <rect width="512" height="512" fill="#fff"/>
+      <path d="M176 300 Q186 344 218 366" fill="none" stroke="#000" stroke-width="9" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <g fill="#000000" stroke="#000000">
+    <!-- ring -->
+    <circle cx="256" cy="256" r="236" fill="none" stroke-width="20"/>
+    <circle cx="256" cy="256" r="210" fill="none" stroke-width="5"/>
+    <!-- roof: "casa" -->
+    <path d="M136 214 L256 118 L376 214" fill="none" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- steam: "sabor" -->
+    <g fill="none" stroke-width="12" stroke-linecap="round">
+      <path d="M222 238 C208 222 236 208 222 188"/>
+      <path d="M256 232 C242 214 270 200 256 176"/>
+      <path d="M290 238 C276 222 304 208 290 188"/>
+    </g>
+    <!-- clay pot -->
+    <g stroke="none" mask="url(#potDetail)">
+      <path d="M150 272 q-34 2 -32 30 q16 4 38 -8 z"/>
+      <path d="M362 272 q34 2 32 30 q-16 4 -38 -8 z"/>
+      <path d="M146 262 L366 262 Q360 360 306 384 L206 384 Q152 360 146 262 Z"/>
+      <rect x="136" y="252" width="240" height="22" rx="11"/>
+    </g>
+    <!-- base -->
+    <rect x="196" y="402" width="120" height="12" rx="6" stroke="none"/>
+  </g>
+</svg>

@@ -1,0 +1,88 @@
+MIT License
+
+Copyright (c) 2019 Marios Sofokleous
+Copyright (c) 2026 Katherine Costa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+Original work and modifications
+-------------------------------------------------------------------------------
+
+This project is an adaptation of the "Grecko" restaurant website template by
+Marios Sofokleous (PictureElement), https://github.com/PictureElement/grecko,
+released under the MIT License above.
+
+Modifications by Katherine Costa (2026), released under the same license:
+- Rebranded as the fictitious restaurant "Casa do Sabor" (name, logo, favicon,
+  colors), with a Brazilian cuisine theme.
+- Page texts and menu content rewritten in Brazilian Portuguese.
+- Typography changed to "DM Serif Display" (Google Fonts).
+- New photos for the hero slider, events, testimonials, menu items and page
+  backgrounds, stored locally in media/ instead of the original Cloudinary
+  account.
+- Style and layout changes in css/main.css.
+- Web app manifest and favicons updated; asset paths adjusted for GitHub Pages.
+
+-------------------------------------------------------------------------------
+Third-party components (each under its own license, not the one above)
+-------------------------------------------------------------------------------
+
+Bundled in this repository:
+- Bootstrap 4.0.0 (css/bootstrap.css) - MIT License
+  Copyright 2011-2018 The Bootstrap Authors, Twitter, Inc.
+  https://github.com/twbs/bootstrap/blob/main/LICENSE
+- animate.css 3.5.1 (css/animate.css) - MIT License
+  Copyright (c) 2016 Daniel Eden
+  https://github.com/animate-css/animate.css/blob/main/LICENSE
+- lazysizes 4.1.1 (js/lazysizes.min.js) - MIT License
+  Copyright (c) 2015 Alexander Farkas
+  https://github.com/aFarkas/lazysizes/blob/gh-pages/LICENSE
+
+Loaded from CDNs at runtime (not redistributed here):
+- Bootstrap 4.0.0 JavaScript - MIT License
+- jQuery 3.3.1 - MIT License, https://jquery.org/license/
+- Font Awesome 4.7.0 - font under SIL OFL 1.1, CSS under MIT License,
+  https://fontawesome.com/v4/license/
+- Google Font "DM Serif Display" - SIL Open Font License 1.1,
+  https://fonts.google.com/specimen/DM+Serif+Display/license
+
+-------------------------------------------------------------------------------
+Images, icons and content
+-------------------------------------------------------------------------------
+
+Created for this adaptation (covered by the MIT License above):
+- Casa do Sabor logo and favicons in media/brand/ (logo.png, logo-dark.svg,
+  logo-light.svg, logo-512x512.png, favicon.svg, favicon-32x32.png,
+  apple-touch-icon.png).
+
+Added in this adaptation (NOT covered by the MIT License above):
+- Photos in media/backgrounds/, media/events/, media/hero/, media/menu-cards/,
+  media/testimonials/, media/menu/food/*.jpg and media/menu/desserts/*.jpg
+  (also shown in the README screenshot, media/screenshot.jpg) were obtained from free stock photo sites (such as Unsplash) and remain
+  under the terms of their respective licenses.
+
+Inherited from the original template (NOT covered by the MIT License above):
+- The reservations page cover photo, loaded at runtime from
+  res.cloudinary.com/pictureelement (not redistributed here). Its source and
+  license are not stated by the original author; it is used for demonstration
+  only and must be replaced before any production or client use.
+
+The restaurant "Casa do Sabor", its texts, reviews and contact details are
+fictitious and used for demonstration purposes only.
