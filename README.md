@@ -42,26 +42,12 @@ do meu portfólio de sites para restaurantes.
 
 Basta abrir o arquivo `index.html` no navegador. Não é preciso instalar nada.
 
-## Pendências
-
-- [x] Substituir as fotos, o logo e os ícones herdados do template original
-- [ ] Substituir a foto de capa da página de reservas, que ainda vem do Cloudinary do autor original, por uma imagem própria em `media/`
-- [x] Traduzir os textos para o português
-- [x] Trocar o mapa do Google Maps pelo endereço do restaurante
-- [x] Aplicar a identidade visual da Casa do Sabor (cores, logo e favicon)
-- [x] Corrigir o menu no celular (botão de menu não aparece)
-- [x] Corrigir o alinhamento do título do slider no celular
-
-## Créditos
+## Créditos e Licença
 
 - Template base: [Grecko](https://github.com/PictureElement/grecko), de
   [Marios Sofokleous](https://www.msof.me/) (PictureElement), sob licença MIT.
-- Adaptação e desenvolvimento: Katherine Costa.
-
-## Licença
-
-Código sob licença MIT. Veja o arquivo [LICENSE](LICENSE), que também lista as
-bibliotecas de terceiros e as imagens que não são cobertas por essa licença.
-
-O restaurante Casa do Sabor, os textos, os depoimentos e os dados de contato são
+- Adaptação e conteúdo: [Katherine Costa](https://github.com/fsckathy).
+- As bibliotecas de terceiros têm licenças próprias, indicadas em cada arquivo.
+- As fotos não estão licenciadas para reutilização. Veja o arquivo [LICENSE](LICENSE).
+-O restaurante Casa do Sabor, os textos, os depoimentos e os dados de contato são
 fictícios e usados apenas para demonstração.
